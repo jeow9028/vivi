@@ -2,71 +2,183 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Jean-Christophe Owens TEST </title>
+	<title>BOULDER </title>
+	<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+	<link rel="shortcut icon" type="image/png" href="http://68.media.tumblr.com/tumblr_mdcncg7hC61r413h3o1_400.jpg	"/>
 	<style>
-
-	.container {
-  	position: relative;
-  	width: 50%;
-}
+		* {
+			margin: 0;
+			padding: 0;
+		}
+	
 		body {
-			font: 14px/1.5 courier, monospace;
-			background: white;
-			color: black;
+			font: 300 15px/1.5 "Helvetica Neue", helvetica, arial, sans-serif;
+			background: #333;
 			margin: 20px;
 		}
 	
-		pre, #htmldog {
-			background-color: #c72;
-			height: 200px;
-			margin: 20px 0;
-			overflow: auto;
+		article {
+			width: 600px;
+			height: 1000px;
+			margin: auto;
+			background: #000;
+			color: #fff;
+			border-radius: 5px;
+			box-shadow: 0 0 15px 2px #1abc9c;
+			background-image: url("http://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg")
 		}
-		pre code {
-			background: white;
-			padding: 2px 10px 4px 0;
+	
+		section {
+			clear: left;
 		}
-
-		#p1 {
-			background-image: url("http://www.htmldog.com/examples/images/circle.png"), url("http://www.htmldog.com/examples/images/bg.gif");
-		}
-		#p2 {
-			background-image: url("http://www.htmldog.com/examples/images/circle.png"), url("http://www.htmldog.com/examples/images/bg.gif");
-			background-repeat: no-repeat, repeat;
-		}
-		#p3 {
-			background-image: url("http://www.htmldog.com/examples/images/circle.png"), url("http://www.htmldog.com/examples/images/bg.gif");
-			background-repeat: no-repeat, repeat;
-			background-position: center;
-		}
-		#p4 {
-			background: url("http://www.htmldog.com/examples/images/circle.png") center no-repeat, url("http://www.htmldog.com/examples/images/bg.gif");
+	
+		h1 {
+			font-size: 45px;
+			font-weight: 100;
+			letter-spacing: 15px;
+			text-align: center;
 		}
 
-		#htmldog a {
+		h1, #main_content, #dog_link {
+			padding: 20px;
+		}
+
+		p {
+			margin: 15px 0;
+			text-align: left;
+		}
+	
+		a {
+			color: #06c;
+		}
+	
+		#main_nav ul {
+			background: silver;
+			float: left;
+			-webkit-transition: .5s;
+			transition: .5s;
+		}
+	
+		#main_nav li {
+			float: left;
+			position: relative;
+			width: 150px;
+			list-style: none;
+			-webkit-transition: .5s;
+			transition: .5s;
+		}
+	
+		#main_nav > ul > li > a, h1 {
+			text-transform: uppercase;
+		}
+	
+		#main_nav a {
 			display: block;
-			height: 200px;
-			background: url("http://www.htmldog.com/examples/images/cornerbg.gif") top -15px left -15px, url("http://www.htmldog.com/examples/images/cornerbg.gif") top -15px right -15px, url("http://www.htmldog.com/examples/images/cornerbg.gif") bottom -15px right -15px, url("http://www.htmldog.com/examples/images/cornerbg.gif") bottom -15px left -15px, url("http://www.htmldog.com//badge1.gif") center;
-			background-repeat: no-repeat;
-			text-indent: -999em;
-			transition: background-position .5s steps(2);
+			text-decoration: none;
+			padding: 5px 15px;
+			color: #000;
 		}
-		.container:hover .overlay {
-  			opacity: 1;
+
+		#main_nav ul ul {
+			position: absolute;
+			left: 0;
+			top: 100%;
+			visibility: hidden;
+			opacity: 0;
+		}
+	
+		#main_nav ul ul ul {
+			left: 100%;
+			top: 0;
+		}
+	
+		#main_nav li:hover, #main_nav li:hover li {
+			background: #ddd;
+		}
+	
+		#main_nav li li:hover, #main_nav li li:hover li {
+			background: #bbb;
+		}
+	
+		#main_nav li li li:hover {
+			background: #999;
+		}
+	
+		#main_nav li:hover > ul {
+			visibility: visible;
+			opacity: 1;
 		}
 	</style>
+	<!--[if lt IE 9]><script src="/r10/html5shiv.js"></script><![endif]-->
 </head>
 <body>
-<img src="home/vivi/Pictures/c1.jpg">
-	<p>Using the <a href="http://www.htmldog.com/references/css/properties/background-image/"><code>background-image</code></a> and <a href="http://www.htmldog.com/references/css/properties/background/"><code>background</code></a> CSS properties.</p>
+	<article>
+		<h1>CU Boulder Campus</h1>
 
-<code>background-repeat: no-repeat, repeat;</code></pre>
-	<pre id="p3"><code>background-image: url("circle.png"), url("bg.gif");</code>
-<code>background-repeat: no-repeat, repeat;</code>
-<code>background-position: center;</code></pre>
-	<pre id="p4"><code>background: url("circle.png") center no-repeat, url("bg.gif");</code></pre>
-
-	<!-- Link back to HTML Dog: -->
-	<pre>Hands Up Duckiessss</pre><img src="https://i.ytimg.com/vi/Ri-tkp3IIic/hqdefault.jpg" alt="HTML Dog">
+		<nav id="main_nav">
+			<ul>
+				<li>
+					<a href="">Norlin</a>
+					<ul>
+						<li><a href="">Commons Desk</a></li>
+						<li><a href="">Secruity</a></li>
+						<li><a href="">Circulation</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="">EnginR </a>
+					<ul>
+						<li>
+							<a href="">Civil</a>
+							<ul>
+								<li><a href="">Echidnas</a></li>
+								<li><a href="">Platypus</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="">Electrical</a>
+							<ul>
+								<li><a href="">Computer science</a></li>
+								<li><a href="">Computing, etc.</a></li>
+								<li><a href=""> Optics etc.</a></li>
+								<li><a href="">Communication.</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="">Areospace</a>
+							<ul>
+								<li><a href=""> Orbitital.</a></li>
+								<li><a href=""> Gravitiy.</a></li>
+								<li><a href=""> Signals etc.</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="">WolfLaw</a>
+					<ul>
+						<li><a href="">Criminals</a></li>
+						<li><a href="">Judge Judy</a></li>
+						<li><a href="">Crocodilians</a></li>
+						<li><a href="">More crimials (jury)</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="">Beson</a>
+					<ul>
+						<li><a href="">Frogs and toads</a></li>
+						<li><a href="">Salamanders and newts</a></li>
+						<li><a href="">Caecilians</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+	
+		<section id="main_content">
+			<p>This isa test website to show the new simulations I have learned. Mostly with the use of the headers and the pictures. The opcacity <em>BIG</em>.
+		</section>
+		<p id="bufff"><img src="http://vignette1.wikia.nocookie.net/collegefootballmania/images/b/be/Colorado_Buffaloes.gif/revision/latest?cb=20120120191201"></p>
+		<!-- Link back to HTML Dog: -->
+	</article>
 </body>
-</html>	Hands Up Duckiessss
+</html>
