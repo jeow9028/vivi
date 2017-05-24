@@ -1,0 +1,11 @@
+@charset "UTD-8";
+div {
+	margin: auto;
+	height: 500px;
+	width: 675px;
+	border-radius: 5px;
+	box-shadow: 0 0 15px 2px #1abc9c;
+	color: #C0C0C0;
+	font-size: 45px;
+	text-align: center;
+}
