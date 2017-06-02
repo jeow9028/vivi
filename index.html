@@ -7,6 +7,18 @@
 	<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 	<link rel="shortcut icon" type="image/png" href="http://68.media.tumblr.com/tumblr_mdcncg7hC61r413h3o1_400.jpg	"/>
 	<style>
+
+	.parallax {
+
+		/*background-image: url("img_parallax.jpg"); */
+		/*That fucks up the whole background*/
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+
 		* {
 			margin: 0;
 			padding: 0;
@@ -40,6 +52,8 @@
 			color: #C0C0C0;
 			font-size: 45px;
 			text-align: center;
+			background-image: url("http://wallpapercave.com/wp/Ohj5NR2.png");
+
 /*			background-image: url("http://www.c3conversations.com/wp-content/uploads/2017/02/red-and-blue-electric-waves-preview.jpg");
 */		
 
@@ -144,12 +158,34 @@
 			opacity: 1;
 		}
 
+		#Bubble:hover {
+			position: middle;
+			background-color: #C0C0C0;
+			background: silver;
+			float: middle;
+			-webkit-transition: .5s;
+			transition: .5s;
+		}
+		#Bubble a {
+			background-color: #C0C0C0;
+		}
+
+		#Bubble p{
+			text-align: middle;
+			color: red;
+			margin: 20px;
+
+
+		}
+
+		
+
 		
 	</style>
 	<!--[if lt IE 9]><script src="/r10/html5shiv.js"></script><![endif]-->
 </head>
+<body class ="parallax">
 <body>
-
 <script type="text/javascript">
 
 
@@ -204,8 +240,9 @@
 		-->
 	</article>
 
-	<div>
-		<p>Test 2!</p>
+	<div class="parallax"></div>
+	<div id= "Bubble">
+		<p>The New generation</p>
 	</div>
 </body>
 </html>
