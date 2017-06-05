@@ -19,7 +19,6 @@ h1 {
 }
 
 body {
-	margin:auto;
 	width: 1000px;
 	height: 1000px;
 	background-size: 750px 650px;
@@ -29,5 +28,7 @@ body {
 }
 
 div{
-
+	margin:left;
+	width: 1000px;
+	height: 1000px;
 }
