@@ -1,4 +1,14 @@
-<style>
+	.parallax {
+
+		/*background-image: url("img_parallax.jpg"); */
+		/*That fucks up the whole background*/
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+
 		* {
 			margin: 0;
 			padding: 0;
@@ -6,12 +16,14 @@
 	
 		body {
 			font: 300 15px/1.5 "Helvetica Neue", helvetica, arial, sans-serif;
-			background: #333;
+			background: #003399;	
+			/*003399 | Blue Colbert*/
 			margin: 20px;
+			background-image: url("http://www.c3conversations.com/wp-content/uploads/2017/02/red-and-blue-electric-waves-preview.jpg");
 		}
 	
 		article {
-			width: 600px;
+			width: 675px;
 			height: 1000px;
 			margin: auto;
 			background: #000;
@@ -20,6 +32,23 @@
 			box-shadow: 0 0 15px 2px #1abc9c;
 			background-image: url("http://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg")
 		}
+
+		div {
+			margin: auto;
+			height: 500px;
+			width: 675px;
+			border-radius: 5px;
+			box-shadow: 0 0 15px 2px #1abc9c;
+			color: #C0C0C0;
+			font-size: 45px;
+			text-align: center;
+			background-image: url("http://wallpapercave.com/wp/Ohj5NR2.png");
+
+/*			background-image: url("http://www.c3conversations.com/wp-content/uploads/2017/02/red-and-blue-electric-waves-preview.jpg");
+*/		
+
+		}
+
 	
 		section {
 			clear: left;
@@ -33,7 +62,7 @@
 			
 		}
 
-		h1, #main_content, #dog_link {
+		h1, #main_content {
 			padding: 20px;
 
 		}
@@ -72,7 +101,7 @@
 		#main_nav li {
 			float: left;
 			position: relative;
-			width: 150px;
+			width: 160px;
 			list-style: none;
 			-webkit-transition: .5s;
 			transition: .5s;
@@ -118,4 +147,26 @@
 			visibility: visible;
 			opacity: 1;
 		}
-	</style>
+
+		#Bubble:hover {
+			position: middle;
+			background-color: #C0C0C0;
+			background: silver;
+			float: middle;
+			-webkit-transition: .5s;
+			transition: .5s;
+		}
+		#Bubble a {
+			background-color: #C0C0C0;
+		}
+
+		#Bubble p{
+			text-align: middle;
+			color: red;
+			margin: 20px;
+
+
+		}
+
+		
+

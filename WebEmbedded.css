@@ -1,0 +1,137 @@
+html, body {
+  height: 100%;
+}
+
+body {
+    background-size: 100%;
+    background: #0f3854;
+    /*BLue*/
+/*background: -webkit-radial-gradient(center ellipse, #f06d06 0%, #000000 70%);
+*/
+/*Orange*/
+/*  background: radial-gradient(ellipse at center, #f06d06 0%, #990099 70%);
+*/
+/*Black and dark*/
+background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);
+
+}
+
+#Title{
+    font-family: 'Share Tech Mono', monospace;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    font-size: 80px;
+    text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);
+    left: 50%;
+    text-align: center;
+    /*-webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            */
+        }
+        h1{
+          margin: 0;
+          padding: 0;
+      }
+
+      h2 {
+        font-size: 20px;
+        min-height: 90px;
+        font: 300 15px/1.5 "Utopia", Utopia, arial, sans-serif;
+        background-image: url("http://media.istockphoto.com/photos/hologram-futuristic-interface-city-picture-id512754678?k=6&m=512754678&s=612x612&w=0&h=2UpEmkZXuKv8xU5vO0UlLJPhZ1KYc3O3tV3nZhbdh0Y=");
+        background-position: 0% 20%;
+        color: #C0C0C0;
+        top: 100%
+    }
+
+    #demo {
+        margin: 0;
+        padding: 0;
+        top: 100%;
+        letter-spacing: 0.1em;
+        font-size: 45px;
+        text-align: center;
+        font-family: 'Share Tech Mono', monospace;
+        color: #0aafe6;
+    }
+
+
+    #label {
+        margin: 0;
+        padding: 0;
+        top: 100%;
+        letter-spacing: 0.1em;
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Share Tech Mono', monospace;
+        color: #purple;
+        text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);
+
+    }
+
+
+    section {
+        clear: left;
+    }
+
+    article {
+        top: 60%;
+        left: 50%;
+        margin: auto;
+        background-image: url("http://ak3.picdn.net/shutterstock/videos/14743033/thumb/1.jpg");
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 15px 2px #1abc9c;
+    }
+
+    section{
+        top: 50%;
+        font-size: 20px
+        font-family: 'Share Tech Mono', monospace;
+        color: #FF8C00;
+
+    }
+
+
+
+
+    #clock {
+      font-family: 'Share Tech Mono', monospace;
+      color: #ffffff;
+      text-align: center;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      color: #daf6ff;
+      text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);
+  }
+  #clock .time {
+      letter-spacing: 0.05em;
+      font-size: 20px;
+      padding: 5px 0;
+  }
+  #clock .date {
+      letter-spacing: 0.1em;
+      font-size: 20px;
+  }
+  #clock .text {
+      letter-spacing: 0.1em;
+      font-size: 12px;
+      padding: 20px 0 0;
+  }
+
+  /*______________________________________*/
+
+
+div, #Introdution,  #Procedure,  #Pictures, #Conclusion  {
+    margin: auto;
+    height: 500px;
+    width: 675px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 2px #1abc9c;
+    color: #daf6ff  ;
+    font-size: 45px;
+    text-align: center;
+    background-image: url("http://ak3.picdn.net/shutterstock/videos/14743033/thumb/1.jpg");
+}
