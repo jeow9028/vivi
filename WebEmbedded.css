@@ -7,13 +7,15 @@ body {
     min-height: 100% !important;
     padding:0;
     margin:0;
+
     /*background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);*/
-    background: url("file:///C:/Users/Jean-Christophe/Documents/ProjectsOther/vivi.io/Mountains.png");
+    background: url('file://C:/Users/Jean-Christophe/Documents/ProjectsOther/vivi.io/Mountains.png');
     background-repeat: no-repeat;     
     background-attachment: fixed;
     background-position: center; 
+    background-color:#0f3854; 
 
-
+}
 
     /*BLue*/
 /*background: -webkit-radial-gradient(center ellipse, #f06d06 0%, #000000 70%);
@@ -23,7 +25,6 @@ body {
 */
 /*Black and dark*/
 
-}
 
 #Title{
   font-family: 'Share Tech Mono', monospace;
@@ -37,6 +38,8 @@ body {
           transform: translate(-50%, -50%);
           */
     }
+
+
 h1{
   margin: 0;
   padding: 0;
