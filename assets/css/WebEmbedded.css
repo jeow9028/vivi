@@ -8,7 +8,7 @@ body {
     margin:0;
 
     /*background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);*/
-    background: url('../../assets/Images/Mountains.png');
+    background: url("https://github.com/jeow9028/vivi.io/blob/master/assets/Images/Mountains.png");
     background-repeat: no-repeat;     
     background-attachment: fixed;
     background-position: center; 
