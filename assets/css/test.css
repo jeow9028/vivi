@@ -1,0 +1,92 @@
+/*Stlye page for the google maps*/
+/*Needs to edit the overall form of it and inlcude waether bar */
+
+/*
+h1 {
+	width: 500px;
+	height: 45px;
+	font-size: 45px;
+	font-weight: 100;
+	letter-spacing: 10px;
+	text-align: left;
+	text-transform: uppercase;
+	font: 400 20px/1.5 "Helvetica Neue", helvetica, arial, sans-serif;
+	color: #E03F1B;
+	box-shadow: 0 0 6px 2px #1abc9c;
+	/*margin: auto;*/
+/*	padding: 20px;
+
+}
+
+body {
+	width: 1000px;
+	height: 1000px;
+	background-size: 750px 650px;
+	background-image: url("http://3.bp.blogspot.com/-aZ9F32711A8/UWTbnzOh44I/AAAAAAAAN_I/hq60ViQn1jg/s1600/clark-little-photographs-very-big-waves-as-they-crash-to-shore-north-shore-hawaii-shorebreak-wave-photography-the-flying-tortoise-006.jpg");
+	background-repeat: no-repeat;
+	bottom: 50%;
+}
+
+div{
+	margin:left;
+}*/
+
+	.parallax {
+
+		/*background-image: url("img_parallax.jpg"); */
+		/*That fucks up the whole background*/
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+/*All*/
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	body {
+/*Background stuff*/
+		font: 300 15px/1.5 "Helvetica Neue", helvetica, arial, sans-serif;
+		background: #003399;	
+		background-image: url("http://www.c3conversations.com/wp-content/uploads/2017/02/red-and-blue-electric-waves-preview.jpg");
+		background-size: 1600px 800px;
+		
+
+/*Position*/
+
+		margin: 20px;
+		width: 1260px;
+		height: 1000px;
+
+/* Preserve aspet ratio */
+		position: fixed; 
+		top: 0; 
+		left: 0; 
+		min-width: 50%;
+		min-height: 50%;
+}
+		
+
+
+	div {
+
+
+		width: 50%;
+		height: 50%;
+}
+	
+
+
+	h1, #main_content{
+		font-size: 45px;
+		font-weight: 100;
+		letter-spacing: 15px;
+		text-align: center-left;
+		color: #3B9C9C;
+		left:30%;			
+		padding: 20px;
+		}
+
