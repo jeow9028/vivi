@@ -47,7 +47,7 @@ div{
 		padding: 0;
 	}
 	
-	body {
+	html, body {
 /*Background stuff*/
 		font: 300 15px/1.5 "Helvetica Neue", helvetica, arial, sans-serif;
 		background: #003399;	
@@ -58,24 +58,24 @@ div{
 /*Position*/
 
 		margin: 20px;
-		width: 1260px;
-		height: 1000px;
 
 /* Preserve aspet ratio */
 		position: fixed; 
 		top: 0; 
 		left: 0; 
-		min-width: 50%;
-		min-height: 50%;
+    	height: 100%;
+    	margin: 0;
+    	padding: 0;
 }
 		
 
 
-	div {
+	div, #map {
 
 
 		width: 50%;
 		height: 50%;
+		margin: auto;
 }
 	
 
