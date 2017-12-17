@@ -1,0 +1,1 @@
+"./IRBeamsSv.obj" "./bluetooth.obj" "./buffer.obj" "./gpio1.obj" "./main_s.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "./timer.obj" "./uart.obj" "../msp432p401r.cmd" -llibc.a 

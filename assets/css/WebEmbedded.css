@@ -30,7 +30,7 @@ body {
   font-family: 'Share Tech Mono', monospace;
   color: #ffffff;
   letter-spacing: 0.1em;
-  font-size: 80px;
+  font-size: 90px;
   text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);
   left: 50%;
   text-align: center;
@@ -110,11 +110,11 @@ h1{
     padding: 0;
     top: 100%;
     letter-spacing: 0.1em;
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
     font-family: 'Share Tech Mono', monospace;
     color: #ffffff;
-    text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);
+/*    text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);*/
 
 }
 
@@ -164,8 +164,9 @@ div  {
 }
 
 #video {
-margin-top: 50px; 
-
+  margin-top: 50px; 
+  height: 750px;
+  width: 1500px;
 }
 
 
@@ -173,7 +174,7 @@ margin-top: 50px;
 #Introduction{
   margin-top: 30px;
   height: 500px;
-  width: 675px;
+  width: 1000px;
   border-radius: 5px;
   box-shadow: 0 0 15px 2px #1abc9c;
   color: #ffffff;
@@ -192,11 +193,33 @@ margin-top: 50px;
     width: 800px;
 }
 
-h3 {
+#Conclusion {
+  margin-top: 30px;
+  height: 750px;
+  width: 1000px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px 2px #1abc9c;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+/*  background-image: url("http://ak3.picdn.net/shutterstock/videos/14743033/thumb/1.jpg");*/
+} 
+
+details {
+  margin-top: 25px;
   font-family: 'Share Tech Mono', monospace;
   color: #ffffff;
   letter-spacing: 0.1em;
   font-size: 35px;
+  left: 50%;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Share Tech Mono', monospace;
+  color: #ffffff;
+  letter-spacing: 0.1em;
+  font-size: 50px;
   left: 50%;
   text-align: center;
 }

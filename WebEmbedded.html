@@ -21,13 +21,22 @@
 
 <!-- Java Scipts -->
 <script type="text/javascript" src="assets/js/countdown.js"></script>
-<p id="demo"></p>
-<p id="label"><em><u>Count Down Till Expo</u></em></p>
-<p id="above"><em>Demo Video</em></p>
+<!-- <p id="demo"></p>
+<p id="label"><em><u>Count Down Till Expo</u></em></p> -->
 
+
+<!-- ********************************* -->
+
+<div id="Introduction">
+	<p><u>Welocome to our Project</u></p>
+		<p>This project primarily used the embedded systems microcontroller MSP432P401R.</p>
+		<p>The project comprised of using a master MSP and slave MSP via connected through bluetooth, one giving the instructions for direction and the slave sending the receiving data to the speed controller and outputting the chirp to the two motors. There was a source of power using 12 Volts. </p>
+</div>
+
+<p id="above"><u><em>Demo Video</em></u></p>
 
 <div id = "video">
-<video width="800" height="450" pmargin-top="60px" controls="" style="
+<video width="1300" height="710" pmargin-top="60px" controls="" style="
 margin-top: 10px;
 ">
 		<source src="assets/mp4/Embedded Expo Video.mp4" type="video/mp4">
@@ -40,32 +49,49 @@ margin-top: 10px;
 	</video>
 </div>
 
-<!-- ********************************* -->
-
-<div id="Introduction">
-	<p><u>Welocome to our Project</u></p>
-		<p>This project primarily used the embedded systems microcontroller MSP432P401R.</p>
-		<p>The project comprised of using a master MSP and slave MSP via connected through bluetooth, one giving the instructions for direction and the slave sending the receiving data to the speed controller and outputting the chirp to the two motors. There was a source of power using 12 Volts. </p>
-	</div>
-
 <!-- ********************************** -->
+
+<details>
+<summary><u>Click Here for Diagrams</u></summary> 
+	
 <div id = "Block">
 	<p><u>Block Diagram</u></p>
-		<img id = "Block1"; src= "assets/Images/BlockDiagram.png" alt="BlockDiagram"  width="500" height="600">
+		<!-- <img id = "Block1"; src= "assets/Images/BlockDiagram.png" alt="BlockDiagram"  width="500" height="600"> -->
+		<a href="assets/Images/BlockDiagram.png">
+			<img id = "Flow1"; alt="Link Block Diagram" src="assets/Images/BlockDiagram.png" width="500" height="600">
+		</a>
 	</div>
 </div>
 <!-- ********************************* -->
 <div id = "Flow">
 	<p><u>Flow Diagram</u></p>
-		<img id ="Flow1"; src="assets/Images/Final_Embedded_Project_Flow_Diagram.png" alt="Flow Diagram" width="500" height="600">
+		<!-- <img id ="Flow1"; src="assets/Images/Final_Embedded_Project_Flow_Diagram.png" alt="Flow Diagram" width="500" height="600"> -->
+		<a href="assets/Images/Final_Embedded_Project_Flow_Diagram.png">
+			<img id = "Flow1"; alt="Link Flow Diagram" src="assets/Images/Final_Embedded_Project_Flow_Diagram.png" width="500" height="600">
+		</a>
+</div>
+</details>
+
+
+<div id = "Conclusion">
+	
+	<p><u>Conclusion</u></p>
+	<p>
+		The Electrokart features full functioning omnidirectional capabilities and extensive firmware/ software. Using Bluetooth modules connected via UART (Universal asynchronous receiver transmitter) allow the master and slave to communicate. The master is comprised as the wireless remote control with the joystick conducting the direction. The slave is used to register the values from the master and output PWM (Post width modulation) waves to the speed controller. Once the speed controller reads the frequency and duty cycle of the PWM waves, it transfers the chirp to the motors. In order to log data, another Bluetooth module was connected on the master and through UART is transferred to RealTerm in order to show if the connection was successful.</p>
+
+	<p>	The circuitry of the Electrokart includes crucial elements for it to function. The battery was the hardest to gauge, it was outputting 12 volts with 18Amps. When connecting the battery to the circuit, a power train for power and ground connected the fuses which were attached to the speed controller (in case it blew or shorted). The speed controller was connected to polarity switches which means that when the cart moved forwards we could reverse the direction by flipping the switches. </p>
+
+	</p>
 </div>
 
+
 <!-- ********************************* -->
-<h3>
-	Link to the code
-	<a href="">Appendix Code</a>
+<h3>Link to the code <a href="assets/code">Appendix Code</a>
 </h3>
 		
 </body>
 </html>	
 
+<!-- <a href="https://www.w3schools.com">
+<img border="0" alt="W3Schools" src="logo_w3s.gif" width="100" height="100">
+</a> -->
