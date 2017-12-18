@@ -161,7 +161,7 @@ div  {
   box-shadow: 0 0 15px 2px #1abc9c;
   color: #ffffff;
   font-size: 30px;
-  text-align: middle;
+  text-align: center;
   background-color: #000000;
   background-image: url("https://images2.alphacoders.com/220/220582.jpg ");
 }
@@ -192,6 +192,23 @@ div  {
 }
 
 #Flow1 {
+    height: 400px;
+    width: 800px;
+}
+
+#r1 {
+    height: 400px;
+    width: 800px;
+}
+#r2 {
+    height: 400px;
+    width: 800px;
+}
+#r3 {
+    height: 400px;
+    width: 800px;
+}
+#r4 {
     height: 400px;
     width: 800px;
 }
