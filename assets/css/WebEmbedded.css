@@ -161,22 +161,22 @@ div  {
   box-shadow: 0 0 15px 2px #1abc9c;
   color: #ffffff;
   font-size: 30px;
-  text-align: center;
+  text-align: left;
   background-color: #000000;
-  /*background-image: url("https://images2.alphacoders.com/220/220582.jpg ");*/
+  background-image: url("https://images2.alphacoders.com/220/220582.jpg ");
 }
 
 #video {
   margin-top: 50px; 
   height: 750px;
-  width: 1500px;
+  width: 1300px;
 }
 
 
 
 #Introduction{
-  margin-top: 30px;
-  height:750px;
+  margin-top: 50px;
+  height:500px;
   width: 1000px;
   border-radius: 5px;
   box-shadow: 0 0 15px 2px #1abc9c;
@@ -196,58 +196,22 @@ div  {
     width: 800px;
 }
 
-#Implementation  {
-  margin-top: 100px;
-  height:1500px;
-  width: 1000px;
-  border-radius: 5px;
-  box-shadow: 0 0 15px 2px #1abc9c;
-  color: #ffffff;
-  font-size: 30px;
-  text-align: left;
-  text-indent: 20px;
+#Implementation {
+  margin-top: 50px; 
+  height: 750px;
+  width: 1500px;
 
 }
 
-#Peripherals{
-  margin-top: 15px;
-  color: #ffffff;
-  font-size: 20px;
-  text-align: left;
-}
 
-
-#Results {
-  margin-top: 50px;
-  height: 500px;
-  width: 1000px;
-  border-radius: 5px;
-  color: #ffffff;
-  font-size: 30px;
-  text-align: left;
-  text-indent: 20px
-}
 
 #vive {
   position: relative;
   width : 400px;
   height: 300px;
-  right: 0;
+  margin: auto;
 }
 
-
-#Future {
-  margin-top: 50px;
-  height:750px;
-  width: 1000px;
-  border-radius: 5px;
-  color: #ffffff;
-  font-size: 30px;
-  text-align: left;
-  text-indent: 20px;
-  position: center;
-
-}
 
 
 #Conclusion {
