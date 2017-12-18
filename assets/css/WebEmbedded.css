@@ -41,6 +41,8 @@ body {
 
 
 h1{
+  text-align: center;
+  font-family: 'Share Tech Mono', monospace;
   margin: 0;
   padding: 0;
 }
@@ -160,7 +162,8 @@ div  {
   color: #ffffff;
   font-size: 30px;
   text-align: center;
-  background-image: url("https://images2.alphacoders.com/220/220582.jpg ");
+  background-color: #000000;
+  /*background-image: url("https://images2.alphacoders.com/220/220582.jpg ");*/
 }
 
 #video {
@@ -173,15 +176,14 @@ div  {
 
 #Introduction{
   margin-top: 30px;
-  height: 500px;
+  height:750px;
   width: 1000px;
   border-radius: 5px;
   box-shadow: 0 0 15px 2px #1abc9c;
   color: #ffffff;
   font-size: 30px;
-  text-align: center;
-  /*background-image: url("http://ak3.picdn.net/shutterstock/videos/14743033/thumb/1.jpg");*/
-  background-color: #ffffff;
+  text-align: left;
+  text-indent: 20px;
 }
 
 #Block1 {
@@ -194,6 +196,41 @@ div  {
     width: 800px;
 }
 
+#Implimentation {
+  margin-top: 30px;
+  height:1500px;
+  width: 1000px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px 2px #1abc9c;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: left;
+  text-indent: 20px;
+
+}
+
+#Peripherals{
+  margin-top: 15px;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: left;
+}
+
+
+#future {
+  margin-top: 100px;
+  height:750px;
+  width: 1000px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px 2px #1abc9c;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: left;
+  text-indent: 20px;
+
+}
+
+
 #Conclusion {
   margin-top: 30px;
   height:750px;
@@ -202,7 +239,8 @@ div  {
   box-shadow: 0 0 15px 2px #1abc9c;
   color: #ffffff;
   font-size: 30px;
-  text-align: center;
+  text-align: left;
+  text-indent: 20px;
 /*  background-image: url("http://ak3.picdn.net/shutterstock/videos/14743033/thumb/1.jpg");*/
 } 
 

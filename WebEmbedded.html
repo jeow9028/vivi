@@ -28,9 +28,9 @@
 <!-- ********************************* -->
 
 <div id="Introduction">
-	<p><u>Welocome to our Project</u></p>
-		<p>This project primarily used the embedded systems microcontroller MSP432P401R.</p>
-		<p>The project comprised of using a master MSP and slave MSP via connected through bluetooth, one giving the instructions for direction and the slave sending the receiving data to the speed controller and outputting the chirp to the two motors. There was a source of power using 12 Volts. </p>
+	<h1><u>Welocome to our Project</u></h1>
+		<p>		This project primarily used the embedded systems microcontroller MSP432P401R.</p>
+		<p>		The project comprised of using a master MSP and slave MSP via connected through bluetooth, one giving the instructions for direction and the slave sending the receiving data to the speed controller and outputting the chirp to the two motors. There was a source of power using 12 Volts. </p>
 </div>
 
 <p id="above"><u><em>Demo Video</em></u></p>
@@ -81,13 +81,52 @@ margin-top: 10px;
 </details>
 
 
+
+
+
+<div id = "Implimentation">
+	<h1><u>Implimentation</u></h1>
+	<p>		Here are cetain skills during the lab that was explored and reused from the genreal course of 2440.</p>
+	 <p>		From starting with genreal GPIO pins with setting and clearing pins allocating them to interrupts to perform a task such as LEDs or PWM. The Following method used were timers, they were useful in counting the PWM waves where they were held in a register to count with enabling the interrupts. Once the interrupts were enabled the NVIC handler could transmit data. The next crucial element covered in our project was the UART communication. This held a transmitter and reciever. The transmission (TX) and receiving (RX) were used through the bluetooth module HD-05. This enabled the <b>master</b> and <b>slave</b> to talk. Another bluetoth module was connected to the slave to allow data logging to connect to any other device that paired.  </p>
+	 <details id = "Peripherals">
+
+	 <!-- <summary><h1><u>Refering to project peripherals</u></h1></summary>
+ -->
+
+	<p><u>GPIO</u></p>
+	<p>	General GPIO Interrupt handlers (enable/disable). Also includes Priority setter for interrupts.</p>
+
+	<p><u>Timer</u></p>
+	<p>		This file contains functions to configure Pulse-Width Modulation Timers. Two timers are being used with various pin-outs for different PWM configurations. Refer to gpio1.c for specific pin outputs. Additional PWM pins can be set over there.</p>
+
+	<p><u>UART</u></p>
+	<p>		This function uses the same AT commands that are used to configure the HC-05 with an Arduino. Since the AT commands are sent over UART, we took that received data over UART and used it in this function to configure the bluetooth modules. In order to send these commands, this function needs to be called while bluetooth modules are in AT command mode meaning the Enpins are high and there should be a slow consistent blinking LED. </p>
+
+	<p><u>ADC</u></p>
+	<p>		This file contains functions to configure the analog to digital converter(ADC) on the MSP432P401r, sample and convert data to digital values, and calculate the voltage on an analog channel.</p>	
+
+	<p><u>Joystick</u></p>
+	<p>		Default position reads for x=8310 and for y=8140 Channelx takes an input from main that compares values for the left and right movement  Channely takes an input from main that compares values for the up and down movement. Prioritizing forward movement on top, backwards and 180 turning on bottom. Note that the joystick is not a complete matrix of 2^14x2^14 things (including the negativesof course). There is a weird cutoff that needed to be made specifically for its white LCD Boosterpack MKII.</p>
+
+		</details>
+</div>
+
+
+<div id = "Future">
+	<h1>Future Ideas</h1>
+	<p>		</p>
+
+
+</div>
+
+
+
 <div id = "Conclusion">
 	
-	<p><u>Conclusion</u></p>
-	<p>
-		The Electrokart features full functioning omnidirectional capabilities and extensive firmware/ software. Using Bluetooth modules connected via UART (Universal asynchronous receiver transmitter) allow the master and slave to communicate. The master is comprised as the wireless remote control with the joystick conducting the direction. The slave is used to register the values from the master and output PWM (Post width modulation) waves to the speed controller. Once the speed controller reads the frequency and duty cycle of the PWM waves, it transfers the chirp to the motors. In order to log data, another Bluetooth module was connected on the master and through UART is transferred to RealTerm in order to show if the connection was successful.</p>
+	<h1><u>Conclusion</u></h1>
+	<p> 		The Electrokart features full functioning omnidirectional capabilities and extensive firmware/ software. Using Bluetooth modules connected via UART (Universal asynchronous receiver transmitter) allow the master and slave to communicate. The master is comprised as the wireless remote control with the joystick conducting the direction. The slave is used to register the values from the master and output PWM (Pulse width modulation) waves to the speed controller. Once the speed controller reads the frequency and duty cycle of the PWM waves, it transfers the chirp to the motors. In order to log data, another Bluetooth module was connected on the slave and through UART is transferred to RealTerm in order to show if the connection was successful.</p>
 
-	<p>	The circuitry of the Electrokart includes crucial elements for it to function. The battery was the hardest to gauge, it was outputting 12 volts with 18Amps. When connecting the battery to the circuit, a power train for power and ground connected the fuses which were attached to the speed controller (in case it blew or shorted). The speed controller was connected to polarity switches which means that when the cart moved forwards we could reverse the direction by flipping the switches. </p>
+	<p>			The circuitry of the Electrokart includes crucial elements for it to function. The battery was the hardest to gauge, it was outputting 12 volts with 18Amps. When connecting the battery to the circuit, a power train for power and ground connected the fuses which were attached to the speed controller (in case it blew or shorted). The speed controller was connected to polarity switches which means that when the cart moved forwards we could reverse the direction by flipping the switches. </p>
 
 	</p>
 </div>
