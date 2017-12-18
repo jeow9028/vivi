@@ -146,11 +146,11 @@ section{
 /*______________________________________*/
 
 
-img{
+/*img{
   height: 500px;
   width: 500px;
   margin-top:  15px;
-}
+}*/
 
 
 div  {
@@ -217,7 +217,27 @@ div  {
 }
 
 
-#future {
+#Results {
+  margin-top: 50px;
+  height: 500px;
+  width: 1000px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: left;
+  text-indent: 20px
+}
+
+#vive {
+  position: relative;
+  width : 400px;
+  height: 300px;
+  right: 0;
+  z-index: -1;
+}
+
+
+#Future {
   margin-top: 50px;
   height:750px;
   width: 1000px;
@@ -226,6 +246,7 @@ div  {
   font-size: 30px;
   text-align: left;
   text-indent: 20px;
+  position: center;
 
 }
 
