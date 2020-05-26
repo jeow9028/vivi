@@ -1,3 +1,9 @@
+/*This Document is to edit stlye effects on main page
+Linked to index.html
+05/26/2020
+*/
+
+
 	.parallax {
 
 		/*background-image: url("img_parallax.jpg"); */
@@ -7,6 +13,16 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
+
+	.front-page{
+
+	}
+
+
+
+
+
+
 
 
 		* {
