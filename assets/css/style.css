@@ -1,43 +1,36 @@
 /*This Document is to edit stlye effects on main page
 Linked to index.html
 05/26/2020
+---
+Notes:
+- Having cover changes the value of picture image *** Important ***
 */
 
 /****************************************************************/
-.parallax {
 
-	/*background-image: url("img_parallax.jpg"); */
-	/*That fucks up the whole background*/
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.front-page-img{
+.Front_img{
+	position: absolute;
 	width: 100%;
 	height: 100vh;
-	position: absolute;
-	background: ?????? no-repeat 50% 50%;
+	background: url("../Images/mountain.jpg") no-repeat 50% 50%;
 	background-size: cover;
-
 }
 
 .parallax-el{
 	position: absolute;
 	width: 100%;
 	height: 100vh;
-	background: ?????? no-repeat 50% 50%;
-	background-size: cover;
+	background: url("../Images/badge_v2.png") no-repeat 50% 50%;
+	background-size: 175px;
 	top: 20%;
 }
 
 .text{
 	position: absolute;
-	width: 100%
+	width: 100%;
 	height: 100vh;
-	background: ?????? no-repeat 50% 50%;
-	background-size: cover;
+	background: url("../Images/Start_Today_Black.png") no-repeat 50% 50%;
+	background-size: 500px;
 	top: 32%;
 }
 
@@ -45,10 +38,9 @@ Linked to index.html
 	position: absolute;
 	width: 100%;
 	height: 100vh;
-	background: ?????? no-repeat 50% 50%;
+	background: url("../Images/foggy_v2.png") no-repeat 50% 50%;
 	background-size: cover;
-	top: 20%;
-
+	top: 23%;
 }
 
 .whitespace{
@@ -56,181 +48,141 @@ Linked to index.html
 	height: 100vh;
 }
 
-/****************************************************************/
-/*ALL*/
-* {
-	margin: 0;
-	padding: 0;
-}
-/****************************************************************/
+	/****************************************************************/
 
-body {
+html, body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	height: 0;
+	height: 100%;
 	background: #fff
-
-}
-/****************************************************************/
-
-article {
-	width: 675px;
-	height: 1000px;
-	margin: auto;
-	background: #000;
-	color: #fff;
-	border-radius: 5px;
-	box-shadow: 0 0 15px 2px #1abc9c;
-	background-image: url("http://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg")
 }
 
 /****************************************************************/
 
-/*div {
-	margin: auto;
-	height: 500px;
-	width: 675px;
-	border-radius: 5px;
-	box-shadow: 0 0 15px 2px #1abc9c;
-	color: #C0C0C0;
-	font-size: 45px;
-	text-align: center;
-	background-image: url("http://wallpapercave.com/wp/Ohj5NR2.png");*/
-}
-
-/*			background-image: url("http://www.c3conversations.com/wp-content/uploads/2017/02/red-and-blue-electric-waves-preview.jpg");
-*/		
-/****************************************************************/
-
-
-section {
-	clear: left;
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
 }
 /****************************************************************/
-h1, #main_content {
-	padding: 20px;
-	font-size: 45px;
-	font-weight: 100;
-	letter-spacing: 15px;
+
+content{
+	margin: 0 auto;
+	width: 80%;
+	padding: 80px 0;
+	font-family: Helvetica;
+}
+
+h1{
+	font-size: 42px;
+	font-family: Anton;
+	text-transform: uppercase;
 	text-align: center;
 }
-
-/****************************************************************/
-h2 {
-	font-size: 20px;
-	min-height: 100px;
-	font: 300 15px/1.5 "Utopia", Utopia, arial, sans-serif;
-	background-image: url("http://media.istockphoto.com/photos/hologram-futuristic-interface-city-picture-id512754678?k=6&m=512754678&s=612x612&w=0&h=2UpEmkZXuKv8xU5vO0UlLJPhZ1KYc3O3tV3nZhbdh0Y=");
-	background-position: 0% 20%;
-	color: #C0C0C0;
-	top: 100%
-}
-/****************************************************************/
-#main_content, h2 {
-	padding: 20px;
-}
-/****************************************************************/
 
 p {
-	margin: 15px 0;
-	text-align: left;
+	line-height: 40px;
+	text-align: justify;
+}
+
+/****************************************************************/
+/*#f54123;*/
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8vh;
+	background-color: #5D4954;
+	font-family: 'Poppins', sans-serif;
 }
 /****************************************************************/
 
-a {
-	color: #06c;
-}
-/****************************************************************/
-
-#main_nav ul {
-	background: silver;
-	float: left;
-	-webkit-transition: .5s;
-	transition: .5s;
-}
-/****************************************************************/
-
-#main_nav li {
-	float: left;
-	position: relative;
-	width: 160px;
-	list-style: none;
-	-webkit-transition: .5s;
-	transition: .5s;
-}
-/****************************************************************/
-
-#main_nav > ul > h2> li > a, h1 {
+.logo{
+	color: rgb(226,226,226);
 	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 20px;
+}
+
+/****************************************************************/
+
+.nav-links{
+	display: flex;
+	justify-content: space-around;
+	width: 30%;
+}
+
+.nav-links li{
+	list-style: none;
 }
 /****************************************************************/
 
-#main_nav a {
-	display: block;
+.nav-links a{
+	color: rgb(226,226,226);
 	text-decoration: none;
-	padding: 5px 15px;
-	color: #000;
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-size: 14px
 }
 /****************************************************************/
+.burger {
+	display: none;
+	cursor: pointer;
+}
 
-#main_nav ul ul {
-	position: absolute;
-	left: 0;
-	top: 100%;
-	visibility: hidden;
-	opacity: 0;
+
+.burger div{
+	width: 25px;
+	height: 5px;
+	background-color: rgb(226,226,226);
+	margin: 5px;
 }
 /****************************************************************/
-
-#main_nav ul ul ul {
-	left: 100%;
-	top: 0;
+@media screen and (max-height: 1024px){
+	.nav-links{
+		width: 60%;
+	}
 }
-/****************************************************************/
 
-#main_nav li:hover, #main_nav li:hover li {
-	background: #ddd;
+
+@media screen and (max-height: 768px){
+	body{
+		overflow-x: hidden;
+	}
+	.nav-links {
+		position: absolute;
+		right: 0px;
+		height: 92vh;
+		top: 8vh;
+		background-color: #5D4954;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 50%;
+		transform: translateX(100%);
+		transition: transform 0.5s ease-in;
+	}
+	.nav-links li{
+		opacity: 0;
+	}
+	.burger{
+		display: block;
+	}
 }
-/****************************************************************/
 
-#main_nav li li:hover, #main_nav li li:hover li {
-	background: #bbb;
+.nav-active{
+	transform: translateX(0%);
 }
-/****************************************************************/
 
-#main_nav li li li:hover {
-	background: #999;
+@keyframes navLinkFade {
+	from{
+		opacity: 0;
+		transform: translateX(50px);
+	}
+
+	to{
+		opacity: 1;
+		transform: translateX(0px);
+	}
 }
-/****************************************************************/
-
-#main_nav li:hover > ul {
-	visibility: visible;
-	opacity: 1;
-}
-/****************************************************************/
-
-#Bubble:hover {
-	position: middle;
-	background-color: #C0C0C0;
-	background: silver;
-	float: middle;
-	-webkit-transition: .5s;
-	transition: .5s;
-}
-/****************************************************************/
-
-#Bubble a {
-	background-color: #C0C0C0;
-}
-/****************************************************************/
-
-#Bubble p{
-	text-align: middle;
-	color: red;
-	margin: 20px;
-}
-/*******************************************************************************************************************/
-
-
-
